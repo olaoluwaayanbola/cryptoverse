@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+.Navbar_Container{
+    height: 10vh;
+    background:rgb(32, 32, 32);
+    padding: 5px 25px;
+}
+.Major_Info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    font-family: 'Patrick Hand', cursive;
+}
+.Major_Info span{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-size: 17px;
+    font: 500;
+}
+@media screen and (max-width:600px) {
+    .Navbar_Container h2{
+        font-size: 23px;
+    }
+    .Major_Info span{
+        font-size: 14px;
+        font-weight: bolder;
+        margin-left: 17px;
+    }
+}

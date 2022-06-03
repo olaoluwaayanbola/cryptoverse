@@ -4,10 +4,11 @@ import { Layout, Typography, Space } from 'antd';
 
 import { Exchanges, Homepage, News, Cryptocurrencies, CryptoDetails, Navbar } from './components';
 import './App.css';
-
+import { Navbar } from './components';
 const App = () => (
   <div className="app">
     <div className="navbar">
+      <Navbar />
       <Navbar />
     </div>
     <div className="main">
