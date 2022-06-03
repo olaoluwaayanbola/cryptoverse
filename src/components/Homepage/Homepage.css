@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+.Home_Container h3{
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Home_Container .Title{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Alegreya', serif;
+}
+.card-info{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(15, 15, 15);
+    color: rgb(236, 231, 231);
+    border-radius: 5px;
+}
+.card-info span{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.card-info span::before{
+    content: ' :';
+}
+.Show{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Alegreya', serif;
+    color: rgb(5, 102, 62);
+    padding: 10px 11.5px ;
+    display: block;
+
+}
+.Show:hover{
+    color: rgb(16, 5, 102);
+}
