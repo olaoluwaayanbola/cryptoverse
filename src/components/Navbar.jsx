@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="logo-container">
         <Avatar src={icon} size="large" />
         <Typography.Title level={2} className="logo"><Link to="/">Cryptoverse</Link></Typography.Title>
-        <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><i class="fa fa-bars"></i></Button>
+        <Button className="menu-control-container" onClick={() => setActiveMenu(!activeMenu)}><MenuOutlined /></Button>
       </div>
       {activeMenu && (
       <Menu theme="dark">
@@ -49,7 +49,8 @@ const Navbar = () => {
           <Link to="/news">News</Link>
         </Menu.Item>
       </Menu>
-      )}</div>
+      )}
+    </div>
   );
 };
 

@@ -1,0 +1,21 @@
+.Logoex img{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+.MainTitle{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Title{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a{
+    font-size: 15px;
+}
+a:visited {
+    color: rgb(0, 0, 88);
+}

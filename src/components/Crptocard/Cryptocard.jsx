@@ -23,7 +23,8 @@ const Cryptocard= ({cryptos}) => {
                     style={{
                         borderRadius:"8px",
                         fontSize:"14px",
-                        color:"rgb(15,15,15)",
+                        color:"rgb(10,0,10)",
+                        background:"whitesmoke"
                         }}
                     title={`${currency.rank}. ${currency.name}`}                    
                     extra={<img className="crypto-image" src={currency.iconUrl} />}

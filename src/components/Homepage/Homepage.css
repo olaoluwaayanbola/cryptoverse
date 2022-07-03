@@ -10,11 +10,15 @@
     font-weight: bolder;
     font-family: 'Alegreya', serif;
 }
+.Title h2{
+    color: rgb(15, 15, 15);
+    font-weight: bolder;
+}
 .card-info{
     display: flex;
     justify-content: center;
     padding: 10px;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(79, 78, 78);
     color: rgb(236, 231, 231);
     border-radius: 5px;
 }
@@ -32,7 +36,11 @@
     color: rgb(5, 102, 62);
     padding: 10px 11.5px ;
     display: block;
-
+    margin-left: 10px;
+}
+h2{
+    margin-left: 20px; 
+    text-align: center;
 }
 .Show:hover{
     color: rgb(16, 5, 102);

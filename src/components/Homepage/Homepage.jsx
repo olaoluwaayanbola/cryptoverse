@@ -10,7 +10,7 @@ const Homepage = () => {
   const { data, isFetching } = useGetCryptosQuery(10);
   const globalStats = data?.data?.stats;
   if (isFetching) return <Loader />;
-
+  console.log(globalStats)
   return (
     <div className='Home_Container'>
       <div className="Title">
@@ -21,7 +21,7 @@ const Homepage = () => {
               <div className="card-info">
                 <h3>Total Cryptocurrencies</h3>
                 <span>
-                 
+                  {millify(globalStats.total)}
                 </span>
               </div>
           </Grid>
@@ -52,6 +52,7 @@ const Homepage = () => {
           <Link to="/cryptocurrencies" className='Show'>Show more</Link>
         </span>
       </Grid>
+      <h2>Latest Crypto News</h2>
       <News simplified />
     </div>
   );
