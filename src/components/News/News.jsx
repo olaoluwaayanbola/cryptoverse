@@ -41,7 +41,7 @@ const News = ({ simplified }) => {
           </Select>
         </Col>
       )}
-      {cryptoNews.value.map((news, i) => (
+      {cryptoNews?.value?.map((news, i) => (
         <Col xs={24} sm={12} lg={8} key={i}>
           <Card 
               hoverable 
